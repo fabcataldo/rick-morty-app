@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@hagamos-un-microfrontend/shared": ["libs/shared/src/index.ts"],
+      "characters/Module": ["apps/characters/src/remote-entry.ts"],
+      "home/Module": ["apps/home/src/remote-entry.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
